@@ -44,3 +44,72 @@
     }
     null != undefined
     */
+
+    // Objects - Collection of name-value pairs
+        //two ways
+     /*   var myObject = new Object();// one way or 
+        var myOtherObject = {}; // both are preety much equivalent, and empty
+
+        myObject['1'] = "Chris";
+        myObject['2'] = "Saley";
+        myObject['3'] = "Bob";
+        console.log(myObject);// {1: 'Chris', 2: 'Saley', 3: 'Bob'}
+        
+        myOtherObject = {
+            1: "Chris",
+            2: "Saley",
+            3: "Bob",
+        };
+        console.log(myOtherObject);// {1: 'Chris', 2: 'Saley', 3: 'Bob'}
+        myOtherObject[4] = "Ashley";
+        console.log(myOtherObject);// {1: 'Chris', 2: 'Saley', 3: 'Bob', 4: 'Ashley'}
+
+    var anotherObject = { // Each key should e unique
+        firstName : "Chris",
+        lastName : "Smith",
+        age : 50,
+        phone : "555-555-5555",
+    };
+    console.log(anotherObject);// {firstName: 'Chris', lastName: 'Smith', age: 50, phone: '555-555-5555'}
+
+    console.log(anotherObject.firstName);// Chris !this and the next both functionally equivalet
+    console.log(anotherObject["age"]);// 50
+
+    var moreObject = {
+        name : "Yohannes",
+        numbers : {
+            mobile : "555-555-5555",
+            home : "444-444-4444",
+        },
+        address : "123-fake-street"
+    };
+    console.log(moreObject);// {name: 'Yohannes', numbers: {…}, address: '123-fake-street'}
+
+    console.log(moreObject.numbers);// {mobile: '555-555-5555', home: '444-444-4444'}
+
+    console.log(moreObject.numbers.mobile);// 555-555-5555
+    console.log(moreObject.numbers["home"]);// 444-444-4444
+
+    var userMobileNumber = moreObject.numbers.mobile;
+    console.log(userMobileNumber);// 555-555-5555
+
+    var donut = {
+        type : "coconut",
+        glazed : true,
+        sweetness : 8,
+        hasChocalate : false,
+        sayHi : function() {
+            console.log("Hi!");
+        },
+        sayType : function() {
+            console.log("Type: " + this.type);
+        },
+        saySweetness : function () {
+            console.log("Sweetness : " + this.sweetness + "/10");
+        }
+    }
+    donut.sayHi();// Hi!
+    donut.sayType();// Type: coconut
+    donut.saySweetness();// Sweetness : 8/10
+
+   
