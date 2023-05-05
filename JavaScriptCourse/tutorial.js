@@ -112,4 +112,23 @@
     donut.sayType();// Type: coconut
     donut.saySweetness();// Sweetness : 8/10
 
+    // Constructor pattern for creating objects
+    function Donut(type, glazed, sweetness, hasChocalate) {
+        this.type;
+        this.glazed = glazed;
+        this.sweetness = sweetness;
+        this.hasChocalate = hasChocalate;
+        this.sayType = function() {
+            console.log("Type: " + this.type);
+        };
+        this.showSweetness = function() {
+            console.log("Sweetness: " + this.sweetness + "/10");
+        };
+    }
+    var coconutDonut = new Donut("coconut", false, 8, true);
+    console.log(coconutDonut);// Donut {glazed: false, sweetness: 8, hasChocalate: true, sayType: ƒ, showSweetness: ƒ}
+
+    var vanillaDonut = new Donut("vanilla", true, 10, false);
+    console.log(vanillaDonut);// Donut {glazed: true, sweetness: 10, hasChocalate: false, sayType: ƒ, showSweetness: ƒ}
+*/
    
