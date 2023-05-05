@@ -1,7 +1,6 @@
 // Basic Types
 
     // numbers
-    /*
     console.log(10);// prints 10
     console.log(typeof 10);// prints "number"
     console.log(typeof "10");// prints "string"
@@ -16,12 +15,9 @@
     console.log(parseInt("hello"));// prints NaN(Not a Number)
 
     console.log(isNaN("hello"));// prints true (which means is not a number)
-    
-    */
 
  // String - in javascript are Unicode characters
         //   - we use qoutes for strings (double or single interchangeabley)
-        /*
         console.log("Hello");
 
         console.log("SuperDuper".length);// builtin method to get the length of a string
@@ -29,9 +25,9 @@
 
         console.log("Hello" + " " + "World" + "!");// concatinating strings
         console.log("Hello World!".toUpperCase());// builtin method to change all letters to uppercase
-        */
+
     // Booleans
-    /*
+
     console.log(true);
     console.log(false);
     var cool = null;
@@ -43,11 +39,10 @@
         console.log("var is not Null");
     }
     null != undefined
-    */
 
     // Objects - Collection of name-value pairs
         //two ways
-     /*   var myObject = new Object();// one way or 
+        var myObject = new Object();// one way or 
         var myOtherObject = {}; // both are preety much equivalent, and empty
 
         myObject['1'] = "Chris";
@@ -130,7 +125,7 @@
 
     var vanillaDonut = new Donut("vanilla", true, 10, false);
     console.log(vanillaDonut);// Donut {glazed: true, sweetness: 10, hasChocalate: false, sayType: ƒ, showSweetness: ƒ}
-*/
+
     // Arrays
         // Collection of data
         var myArray = [1, 2, 3, "jsdsds", "sds", true];
