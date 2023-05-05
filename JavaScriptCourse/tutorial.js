@@ -30,3 +30,17 @@
         console.log("Hello" + " " + "World" + "!");// concatinating strings
         console.log("Hello World!".toUpperCase());// builtin method to change all letters to uppercase
         */
+    // Booleans
+    /*
+    console.log(true);
+    console.log(false);
+    var cool = null;
+    console.log(cool);
+    console.log(cool === null);// true
+    if (cool == null) {
+        console.log("var is Null");
+    } else {
+        console.log("var is not Null");
+    }
+    null != undefined
+    */
