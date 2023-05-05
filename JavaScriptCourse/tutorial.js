@@ -18,3 +18,15 @@
     console.log(isNaN("hello"));// prints true (which means is not a number)
     
     */
+
+ // String - in javascript are Unicode characters
+        //   - we use qoutes for strings (double or single interchangeabley)
+        /*
+        console.log("Hello");
+
+        console.log("SuperDuper".length);// builtin method to get the length of a string
+        console.log("Yohannes".charAt(0));// builtin method to get char at specific index
+
+        console.log("Hello" + " " + "World" + "!");// concatinating strings
+        console.log("Hello World!".toUpperCase());// builtin method to change all letters to uppercase
+        */
