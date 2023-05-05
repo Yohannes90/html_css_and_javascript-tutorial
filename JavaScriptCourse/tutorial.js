@@ -166,4 +166,40 @@
         var slicedArray = concatedArray.slice(5);
         console.log(slicedArray);// (5) ['Sally', 'Jhon', 'Jessica', 'Chris', 'Bob']
 
+        // Given an array 'numbers', filter out all numbers less than 10 and log the filtered array to the console.
+        const numbers = [5, 10, 15, 20, 25, 30];
+        var slicedNumbers = numbers.slice(1, 6);
+        console.log(slicedNumbers);// (5) [10, 15, 20, 25, 30]
+
+        const filteredNumbers = numbers.filter(num => num >= 10);
+        console.log(filteredNumbers);// (5) [10, 15, 20, 25, 30]
+
+        var shiftedNumber = numbers.shift();// shift() Removes the first element from an array and returns it
+        console.log(shiftedNumber);// 5
         
+        // Given an array 'a', find and log the largest element
+        const a = [5, 7, 3, 9, 2];
+        const largest = Math.max(...a);
+        console.log(largest);// 9
+
+        var sortedA = a.sort();
+        console.log(sortedA.pop());// 9
+
+        // Given two arrays 'a' and 'b', concatenate them together using the concat() method and log the resulting array to the console
+        const x = [1, 2, 3];
+        const y = [4, 5, 6];
+        const concatenatedArray = x.concat(y);
+        console.log(concatenatedArray);// (6) [1, 2, 3, 4, 5, 6]
+
+        // Reverse String
+        const s = "hello world";
+        const array = s.split("");
+        const reversedArray = array.reverse();
+        const reversedString = reversedArray.join("");
+        console.log(reversedString);// dlrow olleh
+
+        // Given an array 'ar' and an element 'e', find the index of the first occurrence of 'e' in the array using the indexOf() method and log the index to the console.
+        const ar = ["apple", "banana", "orange", "banana"];
+        const e = "banana";
+        const index = ar.indexOf(e);
+        console.log(index);// 1 (if it didn't exist -1)
